@@ -1,4 +1,4 @@
-/*import fs from "fs"
+import fs from "fs"
 async function handler(m, {usedPrefix}) {
     const user = m.sender.split("@")[0]
     if (fs.existsSync("./jadibts/" + user + "/creds.json")) {
@@ -12,5 +12,5 @@ async function handler(m, {usedPrefix}) {
   handler.command = handler.help = ['token', 'gettoken', 'serbottoken'];
   handler.tags = ['jadibot'];
   handler.private = true
-  export default handler;*/
+  export default handler;
   
