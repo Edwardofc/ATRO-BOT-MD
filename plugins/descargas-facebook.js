@@ -5,10 +5,10 @@ import fbDownloader from 'fb-downloader-scrapper';
 import {facebook} from '@xct007/frieren-scraper';
 import axios from 'axios';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!args[0]) throw `*🥀 𝖨𝗇𝗀𝗋𝖾𝗌𝖾 𝖴𝗇 𝖤𝗇𝗅𝖺𝖼𝖾 𝖣𝖾 𝖥𝖺𝖼𝖾𝖻𝗈𝗈𝗄, 𝗘𝗷𝗲𝗺𝗽𝗹𝗼: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
-  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `*🥀 𝖨𝗇𝗀𝗋𝖾𝗌𝖾 𝖴𝗇 𝖤𝗇𝗅𝖺𝖼𝖾 𝖣𝖾 𝖥𝖺𝖼𝖾𝖻𝗈𝗈𝗄, 𝗘𝗷𝗲𝗺𝗽𝗹𝗼: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
+  if (!args[0]) throw `*📍 𝗘𝗷𝗲𝗺𝗽𝗹𝗼: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
+  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `*📍 𝗘𝗷𝗲𝗺𝗽𝗹𝗼: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
   try {
-    await m.reply(`*🥀 ᴅᴇsᴄᴀʀɢᴀɴᴅᴏ sᴜ ᴠɪᴅᴇᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ ᴘᴏʀ ғᴀᴠᴏʀ, ᴇsᴛᴇ ᴘʀᴏᴄᴇsᴏ ᴘᴜᴇᴅᴇ ᴅᴜʀᴀʀ ᴇɴᴛʀᴇ 2 ʏ 10 ᴍɪɴᴜᴛᴏs ᴅᴇᴘᴇɴᴅɪᴇɴᴅᴏ ᴅᴇ ʟᴀ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇʟ ᴠɪᴅᴇᴏ...*`);
+    await m.reply(`*🥀 Espere*`);
     const d2ata = await facebook.v1(args[0]);
     let r2es = '';
     if (d2ata.urls && d2ata.urls.length > 0) {
@@ -49,7 +49,7 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
                 const {result} = await facebookdl(args[0]).catch(async (_) => await facebookdlv2(args[0])).catch(async (_) => await savefrom(args[0]));
                 for (const {url, isVideo} of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, '*𝖠𝗊𝗎𝗂 𝖤𝗌𝗍𝖺 𝖲𝗎 𝖵𝗂𝖽𝖾𝗈*', m);
               } catch (err6) {
-                throw `*📍 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`;
+                throw `*📍 Error*`;
               }
             }
           }
