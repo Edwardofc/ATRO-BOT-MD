@@ -21,7 +21,7 @@ let tags = {
   'owner': 'O W N E R', */
 }
 const defaultMenu = {
-  before: `╭─❒ *Usuario* 🌳
+  before: ` ╭─❒ *Usuario* 🌳
  │🗃 *Nombre:* %name
  │🔧 *Limite:* %diamond
  │📍 *Levelup:* %level
