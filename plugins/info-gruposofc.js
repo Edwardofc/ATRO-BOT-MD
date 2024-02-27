@@ -5,17 +5,17 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let str = `*👨‍💻 GRUPOS OFICIALES*
 
   
-_Grupo Oficial_
+*📍 GRUPO OFC ATROBOT*
 
-┃🚀 ${gp}
+> 🚀 ${gp}
 
-_Canal Oficial_
+*🌳 CANAL ATROBOT*
 
-┃🚀 ${channel}
+> 🚀 ${channel}
 
-_Canal SakuraLite_
+*🧩 CANAL SAKURABOT*
 
-┃🚀 ${channel2}`
+> 🚀 ${channel2}`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
 handler.command = /^grupos|linksk|gruposofc|gruposoficiales$/i
