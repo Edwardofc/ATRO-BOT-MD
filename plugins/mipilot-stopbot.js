@@ -1,4 +1,4 @@
-/*import fs from "fs"
+import fs from "fs"
 async function handler(m, {conn, usedPrefix}) {
    if (conn.user.jid == global.conn.user.jid) return m.reply(`*[❗] No puedes apagar el Bot principal.*`)
    m.reply(`*[❗] Dejarás de ser un Sub Bot en 5 segundos...*`)
@@ -8,4 +8,4 @@ async function handler(m, {conn, usedPrefix}) {
 handler.command = handler.help = ['stop', 'byebot'];
 handler.tags = ['jadibot'];
 handler.owner = true
-export default handler;*/ 
+export default handler;
