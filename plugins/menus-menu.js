@@ -21,7 +21,7 @@ let tags = {
   'owner': 'O W N E R', */
 }
 const defaultMenu = {
-  before: `> ╭─❒ *Usuario* 🌳
+  before: `╭─❒ *Usuario* 🌳
  │🗃 *Nombre:* %name
  │🔧 *Limite:* %diamond
  │📍 *Levelup:* %level
@@ -157,7 +157,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 }
 handler.help = ['help']
 handler.tags = ['main']
-handler.command = ['menu', 'allmenu', 'menucompleto', 'help'] 
+handler.command = ['menu'] 
 handler.register = true
 
 handler.exp = 3
