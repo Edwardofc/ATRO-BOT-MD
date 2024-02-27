@@ -1,4 +1,4 @@
-import ws from 'ws';
+/*import ws from 'ws';
 async function handler(m, { conn: _envio, usedPrefix }) {
   const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
   function convertirMsADiasHorasMinutosSegundos(ms) {
@@ -46,4 +46,4 @@ ${replyMessage.trim()}`.trim();
 }
 handler.command = handler.help = ['listjadibot', 'bots', 'subsbots'];
 handler.tags = ['jadibot'];
-export default handler;
+export default handler;*/
