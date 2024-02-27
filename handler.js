@@ -1546,7 +1546,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*🪄 Este comando fue desactivado por el propietario del bot.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '⚠ Advertencia', body: 'ATRO-BOT-MD', thumbnail: imagen1, sourceUrl: 'global.gp'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '⚠ Advertencia', body: 'ATRO-BOT-MD', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
