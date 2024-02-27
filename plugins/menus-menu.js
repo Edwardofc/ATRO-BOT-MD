@@ -22,20 +22,20 @@ let tags = {
 }
 const defaultMenu = {
   before: ` ╭─❒ *Usuario* 🌳
- │🗃 *Nombre:* %name
- │🔧 *Limite:* %diamond
- │📍 *Levelup:* %level
- │⚔️ *Rango:* %role
- │🧰 *Experincia:* %exp
- │
- ├❒ *InfoBot* 🎈
- │🧩 *Creador:* EdwardOfc
- │⏰️ *Tiempo Activo:* %muptime
- │👨‍💻 *Registrados:* %totalreg
- │
- ├❒ *Fecha* 📅
- │⚡️ *Date:* %date
- ╰──────────────
+│🗃 *Nombre:* %name
+│🔧 *Limite:* %diamond
+│📍 *Levelup:* %level
+│⚔️ *Rango:* %role
+│🧰 *Experincia:* %exp
+│
+├❒ *InfoBot* 🎈
+│🧩 *Creador:* EdwardOfc
+│⏰️ *Tiempo Activo:* %muptime
+│👨‍💻 *Registrados:* %totalreg
+│
+├❒ *Fecha* 📅
+│⚡️ *Date:* %date
+╰──────────────
 `.trimStart(),
   header: '╭•━━━ ✽ %category ✽ ━━━•',
   body: '│🥀 %cmd',
