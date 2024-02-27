@@ -35,7 +35,7 @@ global.imagen6 = fs.readFileSync('./Menu3.png');
 //grupos
 global.gp = 'https://chat.whatsapp.com/IPXgNBsAyYD1XVKnRexkF5' //grupo ofc
 
-global.channel = '' //canal ofc
+global.channel = 'https://whatsapp.com/channel/0029VaRj4RE7Noa96ltI1k2z' //canal ofc
 
 global.channel2 = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //Canal De SakuraBot
 
