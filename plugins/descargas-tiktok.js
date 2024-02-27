@@ -3,7 +3,7 @@ import { tiktokdl } from '@bochilteam/scraper'
 
 var handler = async (m, { conn, text, args, usedPrefix, command}) => {
 
-if (!args[0]) throw `*𝘌𝘫𝘦𝘮𝘱𝘭𝘰:\n${usedPrefix + command} https://vm.tiktok.com/ZMjbonqPu/`
+if (!args[0]) throw `*𝘌𝘫𝘦𝘮𝘱𝘭𝘰:*\n${usedPrefix + command} https://vm.tiktok.com/ZMjbonqPu/`
 if (!args[0].match(/tiktok/gi)) throw `*⚠️ Link Correcto?*`
 
 
