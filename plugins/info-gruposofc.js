@@ -5,7 +5,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let str = `*👨‍💻 GRUPOS OFICIALES*
 
     *_╭━━━⊜ AtroBot-MD_*
-  *_┃🚀 ${gp1}_*
+  *_┃🚀 ${gp}_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
     *_╭━━━⊜ Canal AtroBot_*
