@@ -32,6 +32,13 @@ global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
+//grupos
+global.gp = 'https://chat.whatsapp.com/IPXgNBsAyYD1XVKnRexkF5' //grupo ofc
+
+global.channel = '' //canal ofc
+
+global.channel2 = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //Canal De SakuraBot
+
 global.mods = [];
 
 //* *******Tiempo***************
