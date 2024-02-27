@@ -1,15 +1,6 @@
-/*
 
-⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠
 
-El codigo de este archivo fue realizado por:
-- ReyEndymion (https://github.com/ReyEndymion)
-
-⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠
-
-*/
-
-function _0x7d77(_0x3884d3, _0x297cf0) {
+/*function _0x7d77(_0x3884d3, _0x297cf0) {
   const _0x5346a4=_0x5346(); return _0x7d77=function(_0x7d7709, _0x34044c) {
     _0x7d7709=_0x7d7709-0x1b0; const _0x2ead54=_0x5346a4[_0x7d7709]; return _0x2ead54;
   }, _0x7d77(_0x3884d3, _0x297cf0);
@@ -31,4 +22,4 @@ function _0x7d77(_0x3884d3, _0x297cf0) {
   } catch (_0xe7bf34) {
     console[_0x58c72f(0x1b6)](_0x58c72f(0x1be), _0xe7bf34);
   }
-}; handler[_0xe8344c(0x1b7)]=[_0xe8344c(0x1c3)], handler['tags']=[_0xe8344c(0x1cc)], handler[_0xe8344c(0x1b9)]=/^(deletebot|aa2)$/i, handler['private']=!![], handler['fail']=null; export default handler;
+}; handler[_0xe8344c(0x1b7)]=[_0xe8344c(0x1c3)], handler['tags']=[_0xe8344c(0x1cc)], handler[_0xe8344c(0x1b9)]=/^(deletebot|aa2)$/i, handler['private']=!![], handler['fail']=null; export default handler;*/
