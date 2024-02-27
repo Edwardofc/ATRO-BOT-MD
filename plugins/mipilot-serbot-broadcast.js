@@ -1,4 +1,4 @@
-/*import ws from 'ws';
+import ws from 'ws';
 const handler = async (m, {conn, usedPrefix, text}) => {
   if (conn.user.jid !== global.conn.user.jid) throw false;
   const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn.user.jid)])];
@@ -31,4 +31,4 @@ export default handler;
 const more = String.fromCharCode(8206);
 const readMore = more.repeat(4001);
 
-const delay = (time) => new Promise((res) => setTimeout(res, time));*/
+const delay = (time) => new Promise((res) => setTimeout(res, time));
