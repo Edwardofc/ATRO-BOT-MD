@@ -3,15 +3,4 @@ services:
     name: themystic-bot-md
     env: docker
     region: Frankfurt
-    plan: fre
-
-/*.
-
-servicios:
-  - pysy: pagina
-    bot: atro-bot-md
-    ven: dokcer
-    pais: No Te Importa
-    plata: 1.000
-    version: 0.0.1 (SubBeta)
-.*/
+    plan: free
