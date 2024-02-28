@@ -17,8 +17,8 @@ const handler = async (m, {text, command, args, usedPrefix}) => {
       const api = await fetch('http://api.brainshop.ai/get?bid=153868&key=rcKonOgrUFmn5usX&uid=' + nama + '&msg=' + resu[0][0][0]);
       const res = await api.json();
       const reis2 = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=' + res.cnt);
-      const resu2 = await reis2.json();
-      m.reply(resu2[0][0][0]);
+      const resu2 = await reis2.json()
+await conn.reply(m.chat, resu2[0][0][0], m, fake, )
     } catch {
       throw `*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙴 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`;
     }
