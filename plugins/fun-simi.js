@@ -18,7 +18,7 @@ const handler = async (m, {text, command, args, usedPrefix}) => {
       const res = await api.json();
       const reis2 = await fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=' + res.cnt);
       const resu2 = await reis2.json()
-await conn.reply(m.chat, resu2[0][0][0], m, fake, )
+await conn.reply(m.chat, resu2[0][0][0], )
     } catch {
       throw `*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙴 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`;
     }
