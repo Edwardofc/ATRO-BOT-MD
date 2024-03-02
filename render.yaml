@@ -3,4 +3,4 @@ services:
     name: themystic-bot-md
     env: docker
     region: Frankfurt
-    plan: fre
+    plan: free
