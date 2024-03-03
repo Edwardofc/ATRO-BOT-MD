@@ -7,7 +7,7 @@
 /*     ◉ Número: wa.me/51935531943                      */
 /*                                                       */
 /*     —◉ FT:                                            */
-/*     ◉ BrunoSobrino (https://github.com/Edwardofc/ATRO-BOT-MD)  */
+/*     ◉ Edwardofc (https://github.com/Edwardofc/ATRO-BOT-MD)  */
 /*                                                       */
 /* [❗]                      [❗]                      [❗] */
 /* -------------------------------------------------------*/
