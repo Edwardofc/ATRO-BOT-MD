@@ -12,9 +12,9 @@ handler.before = async (m) => {
         let textodem = m.text;
         const name = mconn.conn.getName(m.sender)
         const namedem = `${name || 'Sin definir'}`
-        const sytm = await fetch(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/chatgpt_indicciones.txt`).then(v => v.text());
+        const sytm = await fetch(`https://https://raw.githubusercontent.com/Edwardofc/ATRO-BOT-MD/master/atro.sh/JSON/chatgpt_indicciones.txt`).then(v => v.text());
         const sistema1 = sytm.replace('@name', namedem)
-        const sistema2 = 'Tu seras The Mystic - Bot - MD, un bot de WhatsApp creado por Bruno Sobrino';
+        const sistema2 = 'Tu seras Atro - Bot - MD, un bot de WhatsApp creado por Edwardofc';
         try {
         async function getOpenAIChatCompletion(texto) {
         const openaiAPIKey = global.openai_key;
