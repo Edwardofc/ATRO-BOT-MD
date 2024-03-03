@@ -1,4 +1,4 @@
-/* Codigo hecho por @Fabri115 y mejorado por BrunoSobrino */
+/* Codigo hecho y mejorado por Edwardofc */
 
 import { readdirSync, unlinkSync, existsSync, promises as fs, rmSync } from 'fs';
 import path from 'path';
@@ -22,7 +22,7 @@ const handler = async (m, { conn, usedPrefix }) => {
       }
     }
     if (filesDeleted === 0) {
-      await conn.sendMessage(m.chat, {text: '*[❗] No se encontró ningún archivo para eliminar en la carpeta MysticSession.*'}, {quoted: m});
+      await conn.sendMessage(m.chat, {text: '*[❗] No se encontró ningún archivo para eliminar en la carpeta Session.*'}, {quoted: m});
     } else {
       await conn.sendMessage(m.chat, {text: `*[❗] Se eliminaron ${filesDeleted} archivos de sesión, excepto el archivo creds.json.*`}, {quoted: m});
     }
