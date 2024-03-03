@@ -1216,7 +1216,7 @@ const messageText = `_*< USUARIO SUSPENDIDO />*_\n
         }
 	        const hl = _prefix;
         const adminMode = global.db.data.chats[m.chat].modoadmin;
-        const mystica = `${plugin.botAdmin || plugin.admin || plugin.group || plugin || noPrefix || hl || m.text.slice(0, 1) == hl || plugin.command}`;
+        const atroa = `${plugin.botAdmin || plugin.admin || plugin.group || plugin || noPrefix || hl || m.text.slice(0, 1) == hl || plugin.command}`;
         if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && mystica) return;
 
         if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { // Both Owner
