@@ -54,7 +54,7 @@ axios({url: base + '/capture.php', method: 'POST', data: new URLSearchParams(Obj
 const cookies = data.headers['set-cookie']
 if (data.data.status == 'success') {
 axios.get(base + '/' + data.data.link, { headers: { 'cookie': cookies.join('') }, responseType: 'arraybuffer' }).then(({ data }) => {
-let result = { status: 200, author: '@BrunoSobrino', result: data }
+let result = { status: 200, author: '@Edwardofc ', result: data }
 resolve(result)})
 } else {
 reject({ status: 404, author: 'Ryzn', message: data.data })}}).catch(reject)})}*/
