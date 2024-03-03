@@ -5,7 +5,7 @@ const handler = async (m, {isPrems, conn}) => {
   const img = 'https://img.freepik.com/vector-gratis/cofre-monedas-oro-piedras-preciosas-cristales-trofeo_107791-7769.jpg?w=2000';
   const dia = Math.floor(Math.random() * 30);
   const tok = Math.floor(Math.random() * 10);
-  const mystic = Math.floor(Math.random() * 4000);
+  const atro = Math.floor(Math.random() * 4000);
   const expp = Math.floor(Math.random() * 5000);
 
   global.db.data.users[m.sender].limit += dia;
@@ -19,7 +19,7 @@ const handler = async (m, {isPrems, conn}) => {
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈
 ║➢ *${dia} Diamantes* 💎
 ║➢ *${tok} Tokens* 🪙
-║➢ *${mystic} MysticCoins* 👾
+║➢ *${mystic} Coins* 👾
 ║➢ *${expp} Exp* ⚡
 ╚═════════════════⬣`;
 
