@@ -1,7 +1,7 @@
 import axios from 'axios';
 const handler = async (m, {conn, args, usedPrefix, command}) => {
-  const res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/itzy.json`)).data;
-  const mystic = await res[Math.floor(res.length * Math.random())];
+  const res = (await axios.get(`https://raw.githubusercontent.com/Edwardofc/ATRO-BOT-MD/master/atro.sh/JSON/itzy.json`)).data;
+  const atro = await res[Math.floor(res.length * Math.random())];
   conn.sendFile(m.chat, mystic, 'error.jpg', `_${command}_`, m);
 };
 // conn.sendButton(m.chat, `_${command}_`, author, mystic, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
