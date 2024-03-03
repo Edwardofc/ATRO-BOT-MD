@@ -11,7 +11,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const sessionPath = './MysticSession/';
   try {
     if (!existsSync(sessionPath)) {
-      return await conn.sendMessage(m.chat, {text: '*[❗] La carpeta MysticSession no existe o está vacía.*'}, {quoted: m});
+      return await conn.sendMessage(m.chat, {text: '*[❗] La carpeta Session no existe o está vacía.*'}, {quoted: m});
     }
     const files = await fs.readdir(sessionPath);
     let filesDeleted = 0;
