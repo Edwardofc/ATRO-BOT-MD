@@ -1,5 +1,5 @@
-// TheMystic-Bot-MD@BrunoSobrino - descargas-spotifypro.js
-// Creditos de los tags a @darlyn1234 y diseño a @ALBERTO9883
+// ATRO-BOT-MD@Edwardofc - descargas-spotifypro.js
+// Creditos de los tags a @Azami y @Daniel
 // Este plugins descarga por texto, album, track o playlist de spotify.
 import pkg from 'sanzy-spotifydl'; 
 const { downloadTrack, downloadAlbum, search } = pkg; 
