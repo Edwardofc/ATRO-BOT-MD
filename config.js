@@ -12,7 +12,8 @@ global.confirmCode = ""
 
 global.owner = [
 ['51935531943', '🌳 ATRO-BOT', true],
-['573013482814', '🧸 SakuraBotLite', true]]
+['573013482814', '🧸 SakuraBotLite', true],
+['14437013473']]
 
 global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
