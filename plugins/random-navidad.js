@@ -5,17 +5,17 @@ const handler = async (m, {
   usedPrefix,
   command,
 }) => {
-  const res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/navidad.json`)).data;
+  const res = (await axios.get(`https://raw.githubusercontent.com/Edwardofc/ATRO-BOT-MD/master/atro.sh/JSON/navidad.json`)).data;
   const mystic = await res[Math.floor(res.length * Math.random())];
   conn.sendMessage(m.chat, {
     image: {
-      url: mystic,
+      url: atro,
     },
     caption: `_Navidad 🧑‍🎄_`,
   }, {
     quoted: m,
   });
-  // conn.sendButton(m.chat, `_Navidad 🧑‍🎄_`, author, mystic, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `${usedPrefix + command}`]], m)
+  // conn.sendButton(m.chat, `_Navidad 🧑‍🎄_`, author, atro, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `${usedPrefix + command}`]], m)
 };
 handler.help = ['navidad'];
 handler.tags = ['internet'];
