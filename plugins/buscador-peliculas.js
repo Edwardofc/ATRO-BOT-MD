@@ -61,8 +61,8 @@ async function searchP(query, numberPage = 1) {
   return resultSearch;
 }
 
-/* creado adaptado por bruno sobrino*/
-/* arreglado por skid */
+/* creado adaptado por Edwardofc*/
+/* */
 
 /* import fetch from 'node-fetch'
 import axios from 'axios'
