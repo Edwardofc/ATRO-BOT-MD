@@ -8,7 +8,7 @@ const handler = async (m, {conn, text}) => {
     if (res.status !== 200) throw await res.text();
     if (!json.status) throw json;
     const thumb = await (await fetch(json.result.user_picture)).buffer();
-    const Mystic = `
+    const Atro = `
 *𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${json.result.username}
 *𝙽𝙾𝙼𝙱𝚁𝙴:* ${json.result.nickname}
 *𝚂𝙴𝙶𝚄𝙸𝙳𝙾𝚁𝙴𝚂:* ${json.result.followers}
