@@ -2,12 +2,12 @@
 /* [❗]                      [❗]                      [❗] */
 /*                                                       */
 /*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|      */
-/*     —◉ DESAROLLADO POR OTOSAKA:                       */
-/*     ◉ Otosaka (https://github.com/6otosaka9)          */
-/*     ◉ Número: wa.me/51993966345                       */
+/*     —◉ DESAROLLADO POR EDWARDOFC:                       */
+/*     ◉ Otosaka (https://github.com/Edwardofc)          */
+/*     ◉ Número: wa.me/51935531943                      */
 /*                                                       */
 /*     —◉ FT:                                            */
-/*     ◉ BrunoSobrino (https://github.com/BrunoSobrino)  */
+/*     ◉ Edwardofc (https://github.com/Edwardofc)  */
 /*                                                       */
 /* [❗]                      [❗]                      [❗] */
 /* -------------------------------------------------------*/
