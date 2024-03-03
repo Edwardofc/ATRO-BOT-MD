@@ -1,4 +1,4 @@
-// TheMystic-Bot-MD@BrunoSobrino - _antilink.js
+// ATRO-BOT-MD@Edwardofc - _antilink.js
 
 const linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i;
 export async function before(m, {conn, isAdmin, isBotAdmin}) {
