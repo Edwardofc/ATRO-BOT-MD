@@ -28,7 +28,8 @@ const handler = async (m, { conn, usedPrefix }) => {
  ▢ *Prop.:* Edwardofc
  ▢ *WA:* +51935531943
  ▢ *PayPal:* paypal.me/EdwardDcS
- ▢ *
+ ▢ *Global66:* https://deep-link.global66.com/g66/Ru69q3vjadfpaYuq5
+ ▢ *Yape:* `Pida a mi propietario`
 
  ▢ *Ping:* ${rtime}
  ▢ *Uptime:* ${uptime}
@@ -67,13 +68,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+        mediaUrl: "https://github.com/Edwardofc/ATRO-BOT-MD",
         mediaType: 2,
         previewType: "pdf",
         title: "The Mystic - Bot",
         body: "Repositorio - GitHub",
         thumbnail: imagen1,
-        sourceUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+        sourceUrl: "https://github.com/Edwardofc/ATRO-BOT-MD",
       },
     },
     caption: info,
