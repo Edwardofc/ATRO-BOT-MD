@@ -1,11 +1,11 @@
-// adartado por Diego (Aka: un ladrón de código)
+// adaptado por Diego y edward (Aka: un ladrón de código)
 
 import axios from 'axios';
 let previousCommitSHA = '';
 let previousUpdatedAt = '';
 let previousCommitUser = ''; 
-const owner = 'BrunoSobrino';
-const repo = 'TheMystic-Bot-MD';
+const owner = 'Edwardofc';
+const repo = 'ATRO-BOT-MD';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
  conn.sendMessage(m.chat, {text: `*[❗] Comando activado con éxito, te notificaremos cuando haya algun cambio en el repositorio oficial.*`}, {quoted: m});  
 try {
