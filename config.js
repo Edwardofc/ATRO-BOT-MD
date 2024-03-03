@@ -52,7 +52,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
 global.gt = 'ATRO : BOT';
-global.mysticbot = 'ATRO-BOT';
+global.atrobot = 'ATRO-BOT';
 global.md = 'https://github.com/Edwardofc/ATRO-BOT';
 global.mysticbot = 'https://github.com/Edwardofc/ATRO-BOT';
 global.waitt = '🛠 *Mantenimiento.....*';
