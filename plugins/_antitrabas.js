@@ -1,6 +1,6 @@
 /**
-TheMystic-Bot-MD@BrunoSobrino - _antitrabas.js
-By @NeKosmic || https://github.com/NeKosmic/
+ATRO-BOT-MD@Edwardofc - _antitrabas.js
+By @NeKosmic || https://github.com/ATRO-BOT-MD/
 **/
 
 import * as fs from 'fs';
