@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
-  if (!text) throw `*[❗] Ingresa un texto para buscar, ejemplo: ${usedPrefix + command} TheMystic-Bot-MD*`;
+  if (!text) throw `*[❗] Ingresa un texto para buscar, ejemplo: ${usedPrefix + command} ATRO-BOT-MD*`;
   const res = await fetch(global.API('https://api.github.com', '/search/repositories', {
     q: text,
   }));
