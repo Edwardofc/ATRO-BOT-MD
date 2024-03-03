@@ -22,12 +22,13 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const rtime = (neww - old).toFixed(7);
-  const wm = 'The Mystic Bot';
+  const wm = 'Atro Bot';
   const info = ` _*< INFO - ESTADO />*_
 
- ▢ *Prop.:* Bruno Sobrino
- ▢ *WA:* +5219992095479
- ▢ *PayPal:* paypal.me/TheShadowBrokers133
+ ▢ *Prop.:* Edwardofc
+ ▢ *WA:* +51935531943
+ ▢ *PayPal:* paypal.me/EdwardDcS
+ ▢ *
 
  ▢ *Ping:* ${rtime}
  ▢ *Uptime:* ${uptime}
