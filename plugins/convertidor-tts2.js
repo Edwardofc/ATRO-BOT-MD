@@ -2,8 +2,8 @@
 
         [ ❗ ] CREDITOS - NO MODIFICAR [ ❗ ]
 
-           Codigo hecho por @BrunoSobrino
-       Github: https://github.com/BrunoSobrino
+           Codigo hecho por Edwardofc
+       Github: https://github.com/Edwardofc
        
        Nota: Solo hay disponibles efectos en
        ingles, por lo que el texto en otros
