@@ -53,7 +53,6 @@
     "express": "^4.17.3",
     "fb-downloader-scrapper": "^1.0.1",
     "file-type": "^17.1.1",
-    "fluid-spotify.js": "*",
     "fluent-ffmpeg": "^2.1.2",
     "formdata-node": "^4.3.2",
     "fs": "^0.0.1-security",
@@ -85,14 +84,13 @@
     "readline": "^1.3.0",
     "similarity": "^1.2.1",
     "socket.io": "^4.4.1",
-    "sanzy-spotifydl": "*",
     "syntax-error": "^1.4.0",
     "terminal-image": "^2.0.0",
     "url-regex-safe": "^3.0.0",
     "wa-sticker-formatter": "^4.3.2",
     "yargs": "^17.3.1",
     "yt-search": "^2.10.3",
-    "ytdl-core": "^4.11.4"
+    "ytdl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch.2"
   },
   "devDependencies": {
     "eslint": "^8.45.0",
