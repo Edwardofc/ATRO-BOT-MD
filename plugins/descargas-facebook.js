@@ -47,9 +47,9 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
             } catch (err5) {
               try {
                 const {result} = await facebookdl(args[0]).catch(async (_) => await facebookdlv2(args[0])).catch(async (_) => await savefrom(args[0]));
-                for (const {url, isVideo} of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, '*Aqui Su Video De Facebook 🚀*', m);
+                for (const {url, isVideo} of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, '*Video De Facebook 🚀*', m);
               } catch (err6) {
-                throw `*📍 Error, Intentelo Mas Tarde*`;
+                throw `*Error, Intentelo Mas Tarde*`;
               }
             }
           }
